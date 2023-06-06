@@ -16,11 +16,11 @@ public class ScoreService {
 
     /**
      * Insert a new score
+     *
      * @param score score to be inserted
-     * @return Score inserted with id
      */
-    public Score insert(Score score) {
-        return repo.save(score);
+    public void insert(Score score) {
+        repo.save(score);
     }
 
 
